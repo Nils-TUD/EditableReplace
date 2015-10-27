@@ -1,0 +1,39 @@
+[
+  {
+    "command": "editable_replace",
+    "args": {"mode": "all"},
+    "keys": ["super+r"],
+    "context": [{"key": "editable_replace_is_enabled", "operator": "equal", "operand": ""}]
+  },
+  {
+    "command": "editable_replace",
+    "args": {"mode": "file"},
+    "keys": ["super+f"],
+    "context": [{"key": "editable_replace_is_enabled", "operator": "equal", "operand": ""}]
+  },
+  {
+    "command": "editable_replace",
+    "args": {"mode": "line"},
+    "keys": ["super+v"],
+    "context": [{"key": "editable_replace_is_enabled", "operator": "equal", "operand": ""}]
+  },
+
+  {
+    "command": "editable_replace",
+    "args": {"mode": "all", "modedel": true},
+    "keys": ["super+shift+r"],
+    "context": [{"key": "editable_replace_is_enabled", "operator": "equal", "operand": ""}]
+  },
+  {
+    "command": "editable_replace",
+    "args": {"mode": "file", "modedel": true},
+    "keys": ["super+shift+f"],
+    "context": [{"key": "editable_replace_is_enabled", "operator": "equal", "operand": ""}]
+  },
+  {
+    "command": "editable_replace",
+    "args": {"mode": "line", "modedel": true},
+    "keys": ["super+shift+v"],
+    "context": [{"key": "editable_replace_is_enabled", "operator": "equal", "operand": ""}]
+  }
+]

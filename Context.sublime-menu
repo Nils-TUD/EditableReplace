@@ -1,0 +1,34 @@
+[
+    { "caption": "-" , "id": "editable_replace" },
+    {
+    	"caption": "Replace all/selection",
+        "command": "editable_replace",
+    	"args": {"mode": "all"}
+    },
+    {
+        "caption": "Replace line",
+        "command": "editable_replace",
+        "args": {"mode": "line"}
+    },
+    {
+        "caption": "Replace file",
+        "command": "editable_replace",
+        "args": {"mode": "file"}
+    },
+    { "caption": "-" , "id": "editable_replace_delete" },
+    {
+        "caption": "Delete all/selection",
+        "command": "editable_replace",
+        "args": {"mode": "all", "modedel": true}
+    },
+    {
+        "caption": "Delete line",
+        "command": "editable_replace",
+        "args": {"mode": "line", "modedel": true}
+    },
+    {
+        "caption": "Delete all in file",
+        "command": "editable_replace",
+        "args": {"mode": "file", "modedel": true}
+    }
+]
